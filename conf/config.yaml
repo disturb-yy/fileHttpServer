@@ -1,0 +1,4 @@
+host: "127.0.0.1"
+port: 8083
+upload_path: "./upload"
+max_Memory: 100000

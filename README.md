@@ -23,6 +23,19 @@ fileHttpServer 是一个使用golang编写的简单文件存储系统，包括ge
 * 执行 `sh start.sh`  
 此时fileHttpServer就运行起来了
 
+
+# 项目结构
+```
+├── logs
+│   └── err.log
+│   └── file_upload.log
+├── src
+│   ├── client.go
+│   ├── server.go
+│   ├── upload
+└── start.sh
+```
+
 # 使用方式 
 
 `curl -T $fileName http://$ip:8085/upload/$fileName`   

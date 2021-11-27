@@ -1,3 +1,0 @@
-method:PUT
-getFileNameFromURL, len:3 slice=[ upload openwiki]
-getHandle URL:/upload/openwiki, filename:openwiki
